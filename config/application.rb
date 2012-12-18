@@ -74,3 +74,5 @@ module Myapp
     config.assets.version = '1.0'
   end
 end
+# Heroku requires this to be false (per railsapps.github.com/rails-heroku-tutorial.html)
+config.assets.initialize_on_precompile=false
